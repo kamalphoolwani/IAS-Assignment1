@@ -1,0 +1,99 @@
+{
+    "remote_procedures":[
+        {
+            "procedure_name": "foo",
+            "parameters": [
+                {
+                    "parameter_name":"par_1",
+                    "data_type":"int"
+                }            
+            ],
+            "return_type": "string"
+        },
+        {
+            "procedure_name": "foo2",
+            "parameters": [
+                {
+                    "parameter_name":"par_1",
+                    "data_type":"int"
+                },            
+                {
+                    "parameter_name":"par_2",
+                    "data_type":"float"
+                },            
+                {
+                    "parameter_name":"par_3",
+                    "data_type":"string"
+                },            
+                {
+                    "parameter_name":"par_4",
+                    "data_type":"float"
+                }           
+            ],
+            "return_type": "string"
+        },
+        {
+            "procedure_name": "foo3",
+            "parameters": [
+                {
+                    "parameter_name":"par_1",
+                    "data_type":"str"
+                }            
+            ],
+            "return_type": "str"
+        },
+        {
+            "procedure_name": "foo4",
+            "parameters": [
+                {
+                    "parameter_name":"par_1",
+                    "data_type":"float"
+                },
+                {
+                    "parameter_name":"par_2",
+                    "data_type":"int"
+                }              
+            ],
+            "return_type": "float"
+        },
+        {
+            "procedure_name": "add",
+            "parameters": [
+                {
+                    "parameter_name":"par_1",
+                    "data_type":"int"
+                },
+                {
+                    "parameter_name":"par_2",
+                    "data_type":"int"
+                }              
+            ],
+            "return_type": "int"
+        },
+        {
+            "procedure_name": "bar",
+            "parameters": [
+                {
+                    "parameter_name":"par_1",
+                    "data_type":"int"
+                },
+                {
+                    "parameter_name":"par_2",
+                    "data_type":"str"
+                }              
+            ],
+            "return_type": "int"
+        },
+        {
+            "procedure_name": "temp",
+            "parameters": [            
+            ],
+            "return_type": "int"
+        },
+        {
+            "procedure_name": "cprint",
+            "parameters": [],
+            "return_type": "NoneType"
+        }
+    ]
+}
